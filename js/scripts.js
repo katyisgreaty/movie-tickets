@@ -41,6 +41,15 @@ $(document).ready(function(){
 
   // $("input#new-first-name").val("");
 
+  function resetFields() {
+      $("select#movie").val("");
+      $("input#number").val("");
+      $("select#time").val("");
+      $("select#age").val("");
+
+  }
+
+  resetFields();
 
 
   });
