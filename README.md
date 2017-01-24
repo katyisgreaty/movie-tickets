@@ -1,12 +1,12 @@
 # _Movie Tickets_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Book a movie Ticket}, {January 24,2017}_
 
 #### By _**Shruti and Katy**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This project consists of a movie ticket booking website where  a user can select the name of a movie, the time of day that they would like to see the movie and their age.  It should let them know how much their movie ticket will cost, based on those three factors like non-"first-release" movies, matinee and senior tickets that tend to be cheaper than the regular priced ticket._
 
 ## Specs
 
@@ -35,26 +35,19 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
     * _example input: The Hobbit_
     * _example output: $15/each_
 
-
-
-
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
 ## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+ _Not found yet.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For any queries and comments contact us at abc@yahoo.com
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This Project uses HTML CSS and the concept of constructor and prototype of Javascript and jquery to determine how the price of ticket is calculated depending on the input from the user. _
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{This software is licensed under MIT.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_{Shruti Priya and Katy Daviscourt}_**
