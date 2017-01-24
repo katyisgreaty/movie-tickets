@@ -2,6 +2,7 @@
 var movieArray = ["La La Land", "Hidden Figures", "The Hobbit", "Gone with the Wind"];
 var timeArray = ["11:30 am (Matinee)", "3:00 pm (Matinee)"];
 
+
 var Ticket = function(name, email, movie, number, time, userAge){
   this.selectedName = name;
   this.selectedEmail = email;
@@ -26,7 +27,12 @@ Ticket.prototype.classicDiscount = function() {
   } else {
   }
 }
-
+Ticket.prototype.ageDiscount = function() {
+if(this.selectedUserAge === "Senior (Age 61 or above)") {
+  this.price -= 5;
+  } else {
+}
+};
 
 // User logic goes here ....
 $(document).ready(function(){
@@ -43,6 +49,7 @@ $(document).ready(function(){
 
     myTicket.classicDiscount();
     myTicket.matineeDiscount();
+    myTicket.ageDiscount();
 
     var infoOutput = ("Your Name: " + myTicket.selectedName +
                       "<li>" + "Your email: " + myTicket.selectedEmail +
