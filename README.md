@@ -16,24 +16,24 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _form: drop down time selector_
 * _form: get user age_
 * _If movie is new, user will pay $25 each ticket_
-    _example input: La La Land 7pm 30 yrs old_
-    _example output: $25/each_
+    * _example input: La La Land 7pm 30 yrs old_
+    * _example output: $25/each_
 * _If movie is classic, take $5 off price_
-    _example input: The Hobbit 7pm 30 yrs old_
-    _example output: $20/each_
+    * _example input: The Hobbit 7pm 30 yrs old_
+    * _example output: $20/each_
 * _If movie is matinee time, Take $5 off price_
-    _example input: La La Land 4pm 30 yrs old_
-    _example output: $20/each_
-    _example input: The Hobbit 4pm 30 yrs old_ (Both matinee and classic)
-    _example output: $15/each_
+    * _example input: La La Land 4pm 30 yrs old_
+    * _example output: $20/each_
+    * _example input: The Hobbit 4pm 30 yrs old_ (Both matinee and classic)
+    * _example output: $15/each_
 * _If user is over 60 years old, take $5 off_
-    _example input: La La Land 7pm 62 yrs old_
-    _example output: $20/each_
-    _example input: The Hobbit 4pm 62 yrs old_ (Both matinee and classic and senior)
-    _example output: $10/each_
+    * _example input: La La Land 7pm 62 yrs old_
+    * _example output: $20/each_
+    * _example input: The Hobbit 4pm 62 yrs old_ (Both matinee and classic and senior)
+    * _example output: $10/each_
 * _If movie is old, user will pay $15 each ticket_
-    _example input: The Hobbit_
-    _example output: $15/each_
+    * _example input: The Hobbit_
+    * _example output: $15/each_
 
 
 
