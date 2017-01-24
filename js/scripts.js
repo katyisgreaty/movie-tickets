@@ -28,14 +28,16 @@ $(document).ready(function(){
     event.preventDefault();
 
     var inputtedMovie = $("select#movie").val();
-    var inputtedNumber = $("select#movie").val();
-    var inputtedTime = $("select#movie").val();
-    var inputtedUserAge = $("select#movie").val();
+    var inputtedNumber = $("input#number").val();
+    var inputtedTime = $("select#time").val();
+    var inputtedUserAge = $("select#age").val();
     var myTicket = new Ticket(inputtedMovie, inputtedNumber, inputtedTime, inputtedUserAge);
 
-    var totalPrice = myTicket.classicDiscount() * ($("input#number").val());
+    var infoOutput = ("Your movie: " + myTicket.selectedMovie + "<li>" + " Number of tickets booked: " +  myTicket.selectedNumber + "</li><li>" + " Showtime: " +myTicket.selectedTime + "</li><li>" + " Ticket type: " + myTicket.selectedUserAge);
 
-  $("span.output").last().text(myTicket + totalPrice);
+    var totalPrice = "Your total price is $" + (myTicket.classicDiscount() * ($("input#number").val())) + ".00";
+
+  $("span.output").last().append("<li>" + infoOutput + "</li><li>" + totalPrice + "</li>");
 
   // $("input#new-first-name").val("");
 
