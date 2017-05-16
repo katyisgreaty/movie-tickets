@@ -1,6 +1,6 @@
 # _Movie Tickets_
 
-#### _{Book a movie Ticket}, {January 24,2017}_
+#### _Book a movie Ticket, January 24,2017_
 
 #### By _**Shruti and Katy**_
 
@@ -36,18 +36,18 @@ _This project consists of a movie ticket booking website where  a user can selec
     * _example output: $15/each_
 
 ## Known Bugs
- _Not found yet.
+ Not found yet.
 
 ## Support and contact details
 
-_For any queries and comments contact us at abc@yahoo.com
+For any queries and comments contact us at abc@yahoo.com
 
 ## Technologies Used
 
-_This Project uses HTML CSS and the concept of constructor and prototype of Javascript and jquery to determine how the price of ticket is calculated depending on the input from the user. _
+This Project uses HTML CSS and the concept of constructor and prototype of Javascript and jquery to determine how the price of ticket is calculated depending on the input from the user. 
 
 ### License
 
 *{This software is licensed under MIT.}*
 
-Copyright (c) 2017 **_{Shruti Priya and Katy Daviscourt}_**
+Copyright (c) 2017 **_Shruti Priya and Katy Daviscourt_**
